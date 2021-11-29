@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Luke's Stuff</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="init()">
+    <script type="text/javascript" src="./js/color.js"></script>
+    <div id="sketchpadapp">
+        <div class="top">
+             <input type="submit" value="Clear Sketchpad" onclick="clearCanvas(canvas,ctx);">
+             <label for="rednum">Red</label>
+             <input id="rednum" type="number" value=0 min=0 max=255 onchange="updateColor(0);">
+             <label for="greennum">Green</label>
+             <input id="greennum" type="number" value=0 min=0 max=255 onchange="updateColor(1);">
+             <label for="bluenum">Blue</label>
+             <input id="bluenum" type="number" value=0 min=0 max=255 onchange="updateColor(2);;">
+             <canvas id="colorswatch" height="17" width="17"></canvas>
+        </div>
+
+        <div class="rightside">
+            <canvas id="sketchpad">
+            </canvas>
+        </div>
+        <div class="hoverarea">
+            <div class="menubar">
+    
+                <div class="arrows">
+                    <a href="etch.html"><</a>
+                    <a href="index.html">?</a>
+                    <a href="balls.html">></a>
+                </div>
+                
+            </div>
+        
+    </div>
+</body>
+
+</html>

@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html>
-<!--
-Dreams:
-Add mass slider -> Create Black holes. Make a slider you can "slide" past it's limit. 
-mass slider affects color-> ? 
-Rad slider is cool too. -> Black whole causes collapse to small size. Maybe with cool effects
-Make planet orbit simulator
--->
+    <link rel="stylesheet" href="./css/style.css">
 <head>
-    <title>Luke's Stuff</title>
-    <link rel="stylesheet" href="docs/style.css">
+    <title>Who am I?</title>
 </head>
-<script type="text/javascript" src="docs/js/base.js"></script>
-<body onload="init()">
-    <div class="canvasbox">
-        <canvas id="simulation"></canvas>
-    </div>
+<body>
+    <header>Hello! I'm Luke!</header>
+            <div class="row">
+            <div class="column">
+                <img id="me"    src="images/Luke_full.jpg">
+            </div>
+
+             <div class="column" id='hole'>
+                <p>Luke Hawley is an careful and rare being. Distinct and distinctly peculiar. He is guaranteed to lend a new perspective to your project, along with a wealth of skills to help it along the way</p>
+            </div>
+                
+            </div>
+<!-- 
+            <div class="row">
+                <div class="column">
+                    <p><b>Languages</b></p>
+                    <p>Matlab</p>
+                    <p>C++</p>
+                    <p>Python<p>
+                </div>
+                <div class="column">
+                    <p><b>Magic?</b></p>
+                    <p>It</p>
+                    <p>is</p>
+                    <p>Real</p>
+                </div>
+                <div class="column">
+                    <p><b>Interests</b></p>
+                    <p>Metacognition</p>
+                    <p>Philosophy</p>
+                    <p>Futurology</p>
+                </div> -->
+            </div>
+            <div class="row">
+            <div class="column">
+                <p> <b>Publications</b></p>
+                <a id='link' href='https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EA000613'>Analysis of Projection Effects in OSIRIS-REx<br></a>
+                <a id='link' href='https://ui.adsabs.harvard.edu/abs/2014DPS....4621305T/abstract'>Optimization of Sample Site Selection</a>
+            </div>            
+            
+            <div class="column">
+                <p> <b>Links</b></p>
+                <a id='link' href="https://www.linkedin.com/in/luke-hawley-94382aaa/">Linked-in</a>
+            </div> 
+
+            <div class="column">
+                <p> <b>Personal Projects</b></p>
+                <a id='link' href="balls.html">Bouncing Balls</a>
+                <a id='link' href="etch.html">Etch a sketch</a>
+                <p>More coming soon</p>
+            </div>
+
+                
+
+
+        </div>
+
+            <div class="tagline">
+                <p>Any question or comments please email me at LukeHawley [at] me [dot] com</p>
+            </div>
+    
+   
     <div class="hoverarea">
         <div class="menubar">
-
-            <input type="range" min="0" max="100" value="0" id= "gravity">
-
-            <input type="range" id="elasticity" min="0" max="1" step=".01" value="1">
-
-            <input type="range" min="1" max="100" value="10" id= "ballsize">
-
-            <input type="range" min="0" max="100" value="0" id= "ballnum">
-
-            <div class="aboutlink">
-                <a href="about.html">?</a>
-            </div>
             <div class="arrows">
-                <p></p>
+                <a href="balls.html"><&nbsp;</a>
+                <a href="etch.html">&nbsp;></a>
             </div>
-            
+           
         </div>
     </div>
 </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<!--
+Dreams:
+Add mass slider -> Create Black holes. Make a slider you can "slide" past it's limit. 
+mass slider affects color-> ? 
+Rad slider is cool too. -> Black whole causes collapse to small size. Maybe with cool effects
+-->
+<head>
+    <title>Luke's Stuff</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script type="text/javascript" src="js/base.js"></script>
+<body onload="init()">
+    <div class="canvasbox">
+        <canvas id="simulation"></canvas>
+    </div>
+    <div class="hoverarea">
+        <div class="menubar">
+
+            <input type="range" min="0" max="100" value="0" id= "gravity">
+
+            <input type="range" id="elasticity" min=".1" max=".8" step=".01" value=".8">
+
+            <input type="range" min="1" max="100" value="10" id= "ballsize">
+
+            <!-- <input type="range" min="0" max="100" value="0" id= "ballnum"> -->
+
+            <div class="arrows">
+                <a href="gravity.html"><</a>
+                <a href="index.html">?</a>
+                <a href="etch.html">></a>
+            </div>
+            
+        </div>
+    </div>
+</body>
